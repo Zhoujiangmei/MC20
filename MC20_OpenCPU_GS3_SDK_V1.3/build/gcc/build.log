@@ -1,0 +1,89 @@
+In file included from custom/fota/src/fota_http.c:12:0:
+custom/appsrc/inc/debug.h:18:36: warning: backslash and newline separated by space [enabled by default]
+custom/fota/src/fota_http.c:46:1: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/fota/src/fota_http.c: In function 'HTTP_IsHttpServer':
+custom/fota/src/fota_http.c:63:5: warning: implicit declaration of function 'Ql_StrToUpper' [-Wimplicit-function-declaration]
+custom/fota/src/fota_http.c: In function 'HTTP_FotaMain':
+custom/fota/src/fota_http.c:95:5: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:47:7: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:95:5: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:47:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:96:5: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:47:7: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:96:5: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:47:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:97:5: warning: pointer targets in passing argument 1 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:47:7: note: expected 'char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:97:5: warning: pointer targets in passing argument 2 of 'Ql_strcpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:47:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:125:5: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:55:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:125:15: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+custom/fota/src/fota_http.c:129:9: warning: pointer targets in passing argument 1 of 'Ql_strlen' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:54:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:78:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: At top level:
+custom/fota/src/fota_http.c:218:6: warning: function declaration isn't a prototype [-Wstrict-prototypes]
+custom/fota/src/fota_http.c: In function 'http_GetImagefilefromServer':
+custom/fota/src/fota_http.c:221:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'http_SendHttpGetHead':
+custom/fota/src/fota_http.c:276:5: warning: pointer targets in passing argument 2 of 'Ql_strncpy' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:48:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:278:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:298:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:308:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:318:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:328:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:338:5: warning: pointer targets in passing argument 2 of 'Ql_SOC_Send' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:5:0:
+include/ql_socket.h:265:7: note: expected 'u8 *' but argument is of type 'char *'
+custom/fota/src/fota_http.c:268:9: warning: unused variable 'retValue' [-Wunused-variable]
+custom/fota/src/fota_http.c: In function 'http_RecvHttpHead':
+custom/fota/src/fota_http.c:362:14: warning: unused variable 'i' [-Wunused-variable]
+custom/fota/src/fota_http.c:361:10: warning: unused variable 'entryfunctionexe' [-Wunused-variable]
+custom/fota/src/fota_http.c: In function 'http_RecvHttpChunkedBody':
+custom/fota/src/fota_http.c:614:12: warning: pointer targets in passing argument 1 of 'Ql_strstr' differ in signedness [-Wpointer-sign]
+In file included from custom/fota/src/fota_http.c:2:0:
+include/ql_stdlib.h:55:7: note: expected 'const char *' but argument is of type 'u8 *'
+custom/fota/src/fota_http.c:614:14: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+custom/fota/src/fota_http.c:551:8: warning: unused variable 'packageFlag' [-Wunused-variable]
+custom/fota/src/fota_http.c:550:8: warning: unused variable 'testBuf' [-Wunused-variable]
+custom/fota/src/fota_http.c:541:9: warning: unused variable 'fileDLpresentReport' [-Wunused-variable]
+custom/fota/src/fota_http.c:540:9: warning: unused variable 'fileDLpresent' [-Wunused-variable]
+custom/fota/src/fota_http.c: In function 'Httpcallback_socket_read':
+custom/fota/src/fota_http.c:939:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'Callback_GetIpByHostName':
+custom/fota/src/fota_http.c:1030:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'http_TimerCallback':
+custom/fota/src/fota_http.c:1053:10: warning: variable 'retValue' set but not used [-Wunused-but-set-variable]
+custom/fota/src/fota_http.c: In function 'HexToChar':
+custom/fota/src/fota_http.c:1079:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+custom/fota/src/fota_http.c:1079:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+custom/fota/src/fota_http.c:1081:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+custom/fota/src/fota_http.c:1083:3: warning: array subscript has type 'char' [-Wchar-subscripts]
+custom/fota/src/fota_http.c:1085:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+custom/fota/src/fota_http.c:1086:4: warning: array subscript has type 'char' [-Wchar-subscripts]
+custom/fota/src/fota_http.c: In function 'http_RecvHttpBody':
+custom/fota/src/fota_http.c:877:31: warning: 'fileDLpresentReport' may be used uninitialized in this function [-Wmaybe-uninitialized]
+custom/fota/src/fota_http.c:908:40: warning: 'retValue' may be used uninitialized in this function [-Wmaybe-uninitialized]
+custom/fota/src/fota_http.c: In function 'http_RecvHttpChunkedBody':
+custom/fota/src/fota_http.c:768:40: warning: 'retValue' may be used uninitialized in this function [-Wmaybe-uninitialized]

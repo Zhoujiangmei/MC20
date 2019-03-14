@@ -1,0 +1,6 @@
+---- Fota_Upgrade_States Matches (5 in 2 files) ----
+Fota_main.c (custom\fota\src):static bool Fota_Upgrade_States(Upgrade_State state, s32 fileDLPercent);
+Fota_main.c (custom\fota\src):        Fota_UpgardeState = Fota_Upgrade_States;    // Use the default callback
+Fota_main.c (custom\fota\src):* Function:     Fota_Upgrade_States
+Fota_main.c (custom\fota\src):static bool Fota_Upgrade_States(Upgrade_State state, s32 fileDLPercent)
+Fota_main.h (custom\fota\inc):*                   If it's NULL, a default callback function "Fota_Upgrade_States" will be adopted.
